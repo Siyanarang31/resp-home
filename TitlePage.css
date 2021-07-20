@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Space-Age;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/HomePage/space_age.woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.team-name{
+    color : #f15831;
+    font-family: 'Space-Age';
+    font-size: 6em;
+    height: 15vh;
+    line-height:normal;
+    
+}
+
+.title{
+    display: inline;
+    float: left;
+    margin-left: 2vw;
+    padding : 10vh 0;    
+}
+
+
+
+.title-container{
+    position: relative;
+    top : 13vh;
+    
+}
+
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 4% 0;
+}
+
+.title-page{
+    /* background: #141414; */
+    /* background-image: url(../../assets/HomePage/Bg.png);
+    background-size: auto; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position-x:right; */
+    height: 87vh;
+    width: 100vw;
+}
+
+.tpage-staticblock-left{
+    background: #f15831;
+    width : 3vw;
+    height : 60vh;
+
+
+    display: inline;
+    float: left;
+}
+
+ 
+     @media only screen  and (max-width:300px) {
+    .team-name{
+        font-size: 2em; 
+        position:relative;
+        top:-63px;
+        
+} 
+    .title-text{
+        position:relative;
+        top:-80px;
+        left:5px;
+}
+.tpage-staticblock-left{
+      height : 39vh;
+}  
+}    
+    @media only screen and (min-width:630px) and (max-width:760px)  {
+     .team-name{
+        font-size: 3.5em; 
+        position:relative;
+        top:-70px;
+        left:8px;
+}  
+    .title-text{
+        font-size: 0.94em; 
+        position:relative;
+        top:-60px;
+        left:8px;
+        
+}  
+.tpage-staticblock-left{
+    height : 41vh;
+  }
+}  
+   @media only screen and (min-width: 760px)and (max-width: 1255px) {
+     /* .team-name{
+        font-size: 3.4em; 
+        position:relative;
+        top:-10px;
+        left:8px;
+}   */
+.title-text{
+    
+    font-size: 1.3em;
+    position: relative;
+    top:18px;
+} 
+  
+}  
+ @media only screen and (max-width: 630px){
+    .team-name{
+        font-size: 4em; 
+        position:relative;
+        top:-10px;
+        left:8px;
+} 
+.title-text{
+    
+    font-size: 0.9em;
+    position:relative;
+    top:-10px;
+}
+.tpage-staticblock-left{
+    height : 65vh;
+   
+  }
+} 
+  @media only screen and (max-width: 420px) {
+    .team-name{
+        font-size: 3em;
+        position:relative;
+        top:-40px;
+        left:8px;
+    }
+    .title-text{
+    
+        font-size: 1em;
+        position:relative;
+        top:-20px;
+        left:8px;
+    }
+    .tpage-staticblock-left{
+        height : 50vh;
+       
+      }
+
+}  
+
+@media only screen and (max-width: 403px) {
+    .team-name{
+        font-size: 2em;
+        position:relative;
+        top:-370px;
+        left:8px;
+    }
+    .title-text{
+    
+        font-size: 1em;
+        position:relative;
+        top:-400px;
+        left:8px;
+    }
+    .tpage-staticblock-left{
+        height : 40vh;
+       
+      }
+
+}  
+@media only screen and (max-width: 360px) {
+    .team-name{
+        font-size: 1.9em;
+        position:relative;
+        top:-300px;
+        left:4px;
+
+    }
+    .title-text{
+        
+        font-size: 0.9em;
+        position:relative;
+        top:-310px;
+        left:4px;
+    }
+    .tpage-staticblock-left{
+        height : 41vh;
+        
+       
+      }
+
+}  
